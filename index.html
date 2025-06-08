@@ -12,10 +12,16 @@
       <h1>QR Code Generator</h1>
       <input type="text" id="qr" placeholder="Enter URL:">
       <img alt="QR Code" id="qrimg" src="download.png">
-      <button 
-      onclick="document.getElementById('qrimg').src='https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=' + document.getElementById('qr').value">
-        Generate QR
-      </button>
+      <div class="btn-container">
+        <button class="generate-btn" onclick="generateQR()">
+          Generate QR
+        </button>
+        <button class="download-btn" onclick="downloadQR()">
+          Download QR
+        </button>
+      </div>      
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
