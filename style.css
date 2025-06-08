@@ -41,7 +41,7 @@ h1 {
 
 .btn-container {
   display: flex;
-  gap: 20px;
+  gap: 15px;
 }
 
 .generate-btn, .download-btn {
