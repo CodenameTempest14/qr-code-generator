@@ -1,0 +1,9 @@
+diff a/index.html b/index.html	(rejected hunks)
+@@ -12,7 +12,6 @@
+       <h1>QR Code Generator</h1>
+       <input type="text" id="qr" placeholder="Enter URL:">
+       <img alt="QR Code" id="qrimg" src="download.png">
+-      <button 
+       <div class="button-container">
+         <button class="generate-btn" onclick="generateQR()">
+           Generate QR
