@@ -8,6 +8,8 @@ body {
   background-color: rgb(240, 234, 234);
 }
 
+/* I added this comment */
+
 .container {
   background-color: white;
   max-height: 600px;
